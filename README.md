@@ -9,7 +9,7 @@ This repository implements a stage-wise anomaly detection and root cause analysi
 - [CONTEXT_COMPACT.md](CONTEXT_COMPACT.md): Compact repository context distilled from `INFO.md` and `CODE.md` for low-token LLM grounding.
 - [RESULTS.md](RESULTS.md): Result reference covering generated plots, RCA outputs, Bayesian Network visualizations, LLM and temporal-evaluation outputs, and how to inspect outputs systematically.
 
-Use these three files as the primary detailed documentation, and the compact context helper when needed:
+Use these files as the primary detailed documentation, and the compact context helper when needed:
 
 - go to [INFO.md](INFO.md) for data and domain context
 - go to [CODE.md](CODE.md) for implementation details
@@ -46,7 +46,7 @@ Set up the environment locally:
 
 ```
 RFC/
-├── CONTEXT_COMPACT.md # Compact context used by the chatbot chatbot prompt grounding
+├── CONTEXT_COMPACT.md # Compact context used by the chatbot prompt grounding
 ├── chatbot.py           # Streamlit RCA chatbot over static Step16 outputs
 ├── data/
 │   ├── processed/      # Generated data files (steps 2-16)
@@ -94,6 +94,7 @@ Additionally, this repository includes an interactive analysis layer:
 | `notebooks/step13.py` | Local LLM evaluation of candidate propagation paths |
 | `notebooks/step14.py` | Temporal consistency evaluation of propagation paths |
 | `notebooks/step15.py` | Temporal diagnostics and visualization for propagation paths |
+| `notebooks/step16.py` | Builds merged RCA + temporal + LLM explanations output for chatbot grounding |
 | `notebooks/graph_view.py` | Bayesian graph rendering to images |
 | `chatbot.py` | Interactive Streamlit chatbot over static Step16 RCA outputs |
 
@@ -134,6 +135,7 @@ cd notebooks
     python step13.py
     python step14.py
     python step15.py
+    python step16.py
     ```
 
 2.  **Optional: render Bayesian Network graph images**
@@ -141,7 +143,7 @@ cd notebooks
     python graph_view.py
     ```
 
-3.  **Optional: run the chatbot chatbot app from project root**
+3.  **Optional: run the chatbot app from project root**
     ```bash
     cd ..
     python -m streamlit run chatbot.py
