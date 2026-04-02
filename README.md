@@ -2,12 +2,15 @@
 
 This repository implements a stage-wise anomaly detection and root cause analysis pipeline for the Secure Water Treatment (SWaT) dataset. It combines preprocessing, time-window modeling with LSTM autoencoders, reconstruction-based RCA, Bayesian Network learning, Bayesian RCA, local LLM-based path validation, and temporal consistency evaluation of propagation paths.
 
+Project presentation slides are available in the `presentation_slides` folder.
+
 ## Documentation
 
 - [INFO.md](INFO.md): Data reference for SWaT, plant stages `P1` to `P6`, variable naming, and the exact variables used in this project.
 - [CODE.md](CODE.md): Code reference for `step1.py` through `step15.py`, including pipeline logic, dependencies, inputs, outputs, and storage paths.
 - [CONTEXT_COMPACT.md](CONTEXT_COMPACT.md): Compact repository context distilled from `INFO.md` and `CODE.md` for low-token LLM grounding.
 - [RESULTS.md](RESULTS.md): Result reference covering generated plots, RCA outputs, Bayesian Network visualizations, LLM and temporal-evaluation outputs, and how to inspect outputs systematically.
+- [presentation_slides](presentation_slides): Project presentation slide deck.
 
 Use these files as the primary detailed documentation, and the compact context helper when needed:
 
@@ -55,6 +58,7 @@ RFC/
 │   └── lstm/           # Saved PyTorch model checkpoints (.pt)
 ├── reports/
 │   └── figures/        # Generated plots and visualizations
+├── presentation_slides/ # Project presentation slide deck
 ├── notebooks/          # Python scripts for each step of the pipeline
 │   ├── step1.py
 │   ├── ...
@@ -193,6 +197,7 @@ Stage `P5` has the richest learned causal graph in the current repository output
 
 - `reports/figures`: anomaly timelines, reconstructions, RCA summary plots, and temporal evaluation figures
 - `reports/figures/bn_graphs`: stage-wise Bayesian Network graph images
+- `presentation_slides`: project presentation slide deck
 - `data/processed/step8`: reconstruction-based RCA CSV and anomaly JSON
 - `data/processed/step11`: learned Bayesian Network JSON files
 - `data/processed/step12`: Bayesian RCA CSV output
