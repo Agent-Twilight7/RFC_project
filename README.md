@@ -119,7 +119,7 @@ Navigate to the `notebooks` directory:
 cd notebooks
 ```
 
-1.  **Run Step 1 to Step 15 sequentially:**
+1.  **Run Step 1 to Step 16 sequentially:**
     ```bash
     python step1.py
     python step2.py
