@@ -1,0 +1,25 @@
+{
+  "stage": "P4",
+  "nodes": [
+    "LIT401.Pv",
+    "FIT401.Pv",
+    "AIT401.Pv",
+    "AIT402.Pv"
+  ],
+  "edges": [
+    {
+      "from": "LIT401.Pv",
+      "to": "FIT401.Pv"
+    },
+    {
+      "from": "LIT401.Pv",
+      "to": "AIT402.Pv"
+    }
+  ],
+  "cpts": {
+    "LIT401.Pv": null,
+    "FIT401.Pv": null,
+    "AIT401.Pv": null,
+    "AIT402.Pv": null
+  }
+}

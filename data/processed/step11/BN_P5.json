@@ -1,0 +1,83 @@
+{
+  "stage": "P5",
+  "nodes": [
+    "FIT501.Pv",
+    "FIT502.Pv",
+    "FIT503.Pv",
+    "FIT504.Pv",
+    "AIT501.Pv",
+    "AIT502.Pv",
+    "AIT503.Pv",
+    "AIT504.Pv",
+    "PIT501.Pv",
+    "PIT502.Pv",
+    "PIT503.Pv"
+  ],
+  "edges": [
+    {
+      "from": "FIT502.Pv",
+      "to": "AIT501.Pv"
+    },
+    {
+      "from": "FIT503.Pv",
+      "to": "FIT502.Pv"
+    },
+    {
+      "from": "AIT502.Pv",
+      "to": "FIT503.Pv"
+    },
+    {
+      "from": "AIT503.Pv",
+      "to": "AIT502.Pv"
+    },
+    {
+      "from": "AIT503.Pv",
+      "to": "AIT504.Pv"
+    },
+    {
+      "from": "AIT503.Pv",
+      "to": "FIT501.Pv"
+    },
+    {
+      "from": "AIT503.Pv",
+      "to": "PIT502.Pv"
+    },
+    {
+      "from": "AIT503.Pv",
+      "to": "AIT501.Pv"
+    },
+    {
+      "from": "PIT501.Pv",
+      "to": "PIT503.Pv"
+    },
+    {
+      "from": "PIT501.Pv",
+      "to": "PIT502.Pv"
+    },
+    {
+      "from": "PIT502.Pv",
+      "to": "AIT502.Pv"
+    },
+    {
+      "from": "PIT503.Pv",
+      "to": "AIT503.Pv"
+    },
+    {
+      "from": "PIT503.Pv",
+      "to": "FIT502.Pv"
+    }
+  ],
+  "cpts": {
+    "FIT501.Pv": null,
+    "FIT502.Pv": null,
+    "FIT503.Pv": null,
+    "FIT504.Pv": null,
+    "AIT501.Pv": null,
+    "AIT502.Pv": null,
+    "AIT503.Pv": null,
+    "AIT504.Pv": null,
+    "PIT501.Pv": null,
+    "PIT502.Pv": null,
+    "PIT503.Pv": null
+  }
+}

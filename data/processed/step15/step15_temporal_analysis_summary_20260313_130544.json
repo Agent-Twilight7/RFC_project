@@ -1,0 +1,52 @@
+{
+  "step14_output_path": "D:\\Risa\\RFC\\data\\processed\\step14\\propagation_path_temporal_evaluation.csv",
+  "total_multinode_paths": 40518,
+  "multinode_label_counts": {
+    "time_order_supported": 34464,
+    "insufficient_evidence": 3849,
+    "inconsistent": 2131,
+    "consistent": 74
+  },
+  "multinode_time_order_counts": {
+    "strong": 34538,
+    "mixed": 3387,
+    "weak": 2131,
+    "insufficient_evidence": 462
+  },
+  "multinode_mean_temporal_score": 0.9011673823979466,
+  "multinode_anomaly_aligned_fraction": 0.003899501456142949,
+  "multinode_anomaly_within_path_span_counts": {
+    "false": 40040,
+    "true": 16
+  },
+  "multinode_anomaly_position_counts": {
+    "after": 40040,
+    "before": 462,
+    "within": 16
+  },
+  "complete_multinode_paths": 40056,
+  "complete_multinode_fraction": 0.9885976602991263,
+  "complete_multinode_label_counts": {
+    "time_order_supported": 34464,
+    "insufficient_evidence": 3387,
+    "inconsistent": 2131,
+    "consistent": 74
+  },
+  "complete_multinode_time_order_counts": {
+    "strong": 34538,
+    "mixed": 3387,
+    "weak": 2131
+  },
+  "complete_multinode_mean_temporal_score": 0.9115613141601757,
+  "complete_multinode_anomaly_aligned_fraction": 0.003944477731176353,
+  "figure_paths": {
+    "label_counts": "D:\\Risa\\RFC\\reports\\figures\\step15_temporal_label_counts.png",
+    "stage_label_distribution": "D:\\Risa\\RFC\\reports\\figures\\step15_stage_temporal_label_distribution.png",
+    "temporal_score_histogram": "D:\\Risa\\RFC\\reports\\figures\\step15_temporal_score_histogram.png",
+    "interface_label_counts": "D:\\Risa\\RFC\\reports\\figures\\step15_interface_label_counts.png",
+    "anomaly_within_path_span_counts": "D:\\Risa\\RFC\\reports\\figures\\step15_anomaly_within_path_span_counts.png",
+    "anomaly_position_counts": "D:\\Risa\\RFC\\reports\\figures\\step15_anomaly_position_counts.png"
+  },
+  "null_sensor_csv_path": "D:\\Risa\\RFC\\data\\processed\\step15\\step15_null_change_time_sensor_counts_20260313_130544.csv",
+  "complete_multinode_csv_path": "D:\\Risa\\RFC\\data\\processed\\step15\\step15_complete_multinode_paths.csv"
+}

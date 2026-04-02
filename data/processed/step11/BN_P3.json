@@ -1,0 +1,45 @@
+{
+  "stage": "P3",
+  "nodes": [
+    "AIT301.Pv",
+    "AIT302.Pv",
+    "AIT303.Pv",
+    "LIT301.Pv",
+    "FIT301.Pv",
+    "DPIT301.Pv"
+  ],
+  "edges": [
+    {
+      "from": "AIT301.Pv",
+      "to": "LIT301.Pv"
+    },
+    {
+      "from": "AIT303.Pv",
+      "to": "FIT301.Pv"
+    },
+    {
+      "from": "AIT303.Pv",
+      "to": "DPIT301.Pv"
+    },
+    {
+      "from": "LIT301.Pv",
+      "to": "AIT303.Pv"
+    },
+    {
+      "from": "LIT301.Pv",
+      "to": "AIT302.Pv"
+    },
+    {
+      "from": "FIT301.Pv",
+      "to": "DPIT301.Pv"
+    }
+  ],
+  "cpts": {
+    "AIT301.Pv": null,
+    "AIT302.Pv": null,
+    "AIT303.Pv": null,
+    "LIT301.Pv": null,
+    "FIT301.Pv": null,
+    "DPIT301.Pv": null
+  }
+}

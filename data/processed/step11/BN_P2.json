@@ -1,0 +1,29 @@
+{
+  "stage": "P2",
+  "nodes": [
+    "FIT201.Pv",
+    "AIT201.Pv",
+    "AIT202.Pv",
+    "AIT203.Pv"
+  ],
+  "edges": [
+    {
+      "from": "FIT201.Pv",
+      "to": "AIT203.Pv"
+    },
+    {
+      "from": "AIT202.Pv",
+      "to": "AIT201.Pv"
+    },
+    {
+      "from": "AIT203.Pv",
+      "to": "AIT202.Pv"
+    }
+  ],
+  "cpts": {
+    "FIT201.Pv": null,
+    "AIT201.Pv": null,
+    "AIT202.Pv": null,
+    "AIT203.Pv": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "P1": [
+    "LIT101.Pv",
+    "FIT101.Pv"
+  ],
+  "P2": [
+    "FIT201.Pv",
+    "AIT201.Pv",
+    "AIT202.Pv",
+    "AIT203.Pv"
+  ],
+  "P3": [
+    "AIT301.Pv",
+    "AIT302.Pv",
+    "AIT303.Pv",
+    "LIT301.Pv",
+    "FIT301.Pv",
+    "DPIT301.Pv"
+  ],
+  "P4": [
+    "LIT401.Pv",
+    "FIT401.Pv",
+    "AIT401.Pv",
+    "AIT402.Pv"
+  ],
+  "P5": [
+    "FIT501.Pv",
+    "FIT502.Pv",
+    "FIT503.Pv",
+    "FIT504.Pv",
+    "AIT501.Pv",
+    "AIT502.Pv",
+    "AIT503.Pv",
+    "AIT504.Pv",
+    "PIT501.Pv",
+    "PIT502.Pv",
+    "PIT503.Pv"
+  ],
+  "P6": [
+    "FIT601.Pv"
+  ]
+}

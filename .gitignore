@@ -1,0 +1,11 @@
+# data/
+# logs/
+output/
+
+data/processed/step5/
+
+
+pycache/
+*.pyc
+**/__pycache__/
+*.log

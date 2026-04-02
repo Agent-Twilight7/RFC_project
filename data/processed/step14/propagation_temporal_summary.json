@@ -1,0 +1,17 @@
+{
+  "total_paths": 64590,
+  "paths_used_in_summary": 40518,
+  "excluded_single_node_paths": 24072,
+  "label_counts": {
+    "time_order_supported": 34464,
+    "insufficient_evidence": 3849,
+    "inconsistent": 2131,
+    "consistent": 74
+  },
+  "mean_temporal_score": 0.9011673823979466,
+  "input_path": "D:\\Risa\\RFC\\data\\processed\\step12\\swat_rca_step12_results.csv",
+  "output_path": "D:\\Risa\\RFC\\data\\processed\\step14\\propagation_path_temporal_evaluation.csv",
+  "lookback_seconds": 300,
+  "epsilon_seconds": 5,
+  "anomaly_window_seconds": 60
+}
